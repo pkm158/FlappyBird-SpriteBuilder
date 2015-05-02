@@ -154,11 +154,21 @@
     }
     // loop the clouds
     for (CCNode *cloud in _clouds) {
-        cloud.position = ccp(cloud.position.x - character.physicsBody.velocity.x * delta,
+        cloud.position = ccp(cloud.position.x - character.physicsBody.velocity.x * delta * 2,
                              cloud.position.y);
         if (cloud.position.x < (-1 * cloud.contentSize.width)) {
             cloud.position = ccp(cloud.position.x +
                                    2 * cloud.contentSize.width, cloud.position.y);
+        }
+    }
+    
+    // loop the bush
+    for (CCNode bush in _bush) {
+        bush.position = ccp(bush.position.x - character.physicsBody.velocity.x * delta,
+                            bush.position.y);
+        
+        if (bush.position.x < (-1 * bush.contentSize.width)) {
+            bush.position = ccp(bush.position.x + 2*bush.contentSize.width, bush.position.y);
         }
     }
     
