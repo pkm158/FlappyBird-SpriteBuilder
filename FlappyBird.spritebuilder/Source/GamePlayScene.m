@@ -30,4 +30,8 @@
     [character flap];
 }
 
+-(int) plus:(int)value and:(int)value2{
+    return value + value2;
+}
+
 @end
