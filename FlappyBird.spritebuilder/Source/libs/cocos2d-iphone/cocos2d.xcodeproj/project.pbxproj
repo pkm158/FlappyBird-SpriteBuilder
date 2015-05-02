@@ -1083,25 +1083,11 @@
 			remoteGlobalIDString = 83409DCE19D5B65B004B7EB9;
 			remoteInfo = SSZipArchive;
 		};
-		83409E4C19D5E8A1004B7EB9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83409E2A19D5B791004B7EB9 /* SSZipArchive.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 83409DCD19D5B65B004B7EB9;
-			remoteInfo = SSZipArchive;
-		};
 		B759E52C1880C66900E8166C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B759E5281880C66900E8166C /* Chipmunk7-ios.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D309B21317EFE2EF00AA52C8;
-			remoteInfo = "ObjectiveChipmunk-iPhone";
-		};
-		B759E5311880C70A00E8166C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B759E5281880C66900E8166C /* Chipmunk7-ios.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D309B21217EFE2EF00AA52C8;
 			remoteInfo = "ObjectiveChipmunk-iPhone";
 		};
 		B7E7DE4D1A76DB8B004234B7 /* PBXContainerItemProxy */ = {
@@ -1138,13 +1124,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = FC3995B019C3B80E00C93E5E;
 			remoteInfo = "ObjectAL (Android)";
-		};
-		FCFDA23D19C78E2D00B90910 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FC39961319C3B92F00C93E5E /* ObjectAL.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = CBBAB311171D0B84009B955F;
-			remoteInfo = "ObjectAL (iOS)";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -2975,9 +2954,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				83409E4D19D5E8A1004B7EB9 /* PBXTargetDependency */,
-				FCFDA23E19C78E2D00B90910 /* PBXTargetDependency */,
-				B759E5321880C70A00E8166C /* PBXTargetDependency */,
 			);
 			name = "cocos2d-ios";
 			productName = cocos2d;
@@ -3670,16 +3646,6 @@
 			name = "ObjectiveChipmunk-Android";
 			targetProxy = 7A9790D219E61DFE001FFC4D /* PBXContainerItemProxy */;
 		};
-		83409E4D19D5E8A1004B7EB9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SSZipArchive;
-			targetProxy = 83409E4C19D5E8A1004B7EB9 /* PBXContainerItemProxy */;
-		};
-		B759E5321880C70A00E8166C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ObjectiveChipmunk-iPhone";
-			targetProxy = B759E5311880C70A00E8166C /* PBXContainerItemProxy */;
-		};
 		B7E7DE4E1A76DB8B004234B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7A4037A719E37038007B6E8F /* cocos2d-mac */;
@@ -3689,11 +3655,6 @@
 			isa = PBXTargetDependency;
 			name = "ObjectAL (Android)";
 			targetProxy = FC39962019C3BB3A00C93E5E /* PBXContainerItemProxy */;
-		};
-		FCFDA23E19C78E2D00B90910 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ObjectAL (iOS)";
-			targetProxy = FCFDA23D19C78E2D00B90910 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
