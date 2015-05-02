@@ -1,7 +1,6 @@
 #import "GamePlayScene.h"
 #import "Character.h"
 #import "Obstacle.h"
-#import "CCBReader.h"
 @implementation GamePlayScene
 
 - (void)initialize
