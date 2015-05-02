@@ -41,6 +41,7 @@
     
     _grounds = @[_ground1, _ground2];
     _clouds = @[_cloud1, _cloud2];
+    _bushes = @[_bush1, _bush2];
     
     for (CCNode *ground in _grounds) {
         // set collision txpe
@@ -163,7 +164,7 @@
     }
     
     // loop the bush
-    for (CCNode *bush in _bushs) {
+    for (CCNode *bush in _bushes) {
         bush.position = ccp(bush.position.x - character.physicsBody.velocity.x * delta,
                             bush.position.y);
         
