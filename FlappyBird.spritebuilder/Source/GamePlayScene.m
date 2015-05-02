@@ -28,11 +28,6 @@
 // put new methods here
 -(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event{
     [character flap];
-    printf("%d", [self plus:5 and:2]);
-}
-
--(int) plus:(int)value and:(int)value2{
-    return value + value2;
 }
 
 @end
